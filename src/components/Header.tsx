@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Code2 } from 'lucide-react';
+import AnuragologyLogo from './assets/Anuragology.png';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -28,7 +29,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-20">
           <div className="flex items-center space-x-2">
             <img
-              src="assets/Anuragology.png"
+              src={AnuragologyLogo}
               alt="Anuragology"
               width="300"
               height="200"
