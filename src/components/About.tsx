@@ -1,5 +1,7 @@
 import React from 'react';
 import { Quote } from 'lucide-react';
+import Anuragologyimg from '../assets/Aimg.jpg';
+
 
 const About = () => {
   return (
@@ -10,7 +12,7 @@ const About = () => {
           <div className="relative">
             <div className="aspect-square rounded-2xl overflow-hidden">
               <img
-                src="assets\Aimg.jpg"
+                src={Anuragologyimg}
                 alt="Anurag Prasad"
                 className="w-full h-full object-cover"
               />
