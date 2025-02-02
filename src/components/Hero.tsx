@@ -3,6 +3,7 @@ import { ChevronDown } from 'lucide-react';
 
 const Hero = () => {
   return (
+    console.log('Hero Component Rendered'),
     <section id="home" className="relative min-h-screen flex items-center justify-center">
       {/* Background with overlay */}
       <div 

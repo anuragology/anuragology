@@ -3,12 +3,16 @@ import { BookOpen, CheckCircle } from 'lucide-react';
 
 const Courses = () => {
   const benefits = [
-    'Comprehensive digital marketing fundamentals',
-    'Real-world case studies and examples',
-    'Hands-on projects and assignments',
+    'Get Structured & Interactive Tutorial Videos',
+    'Practice Assignments & Quizzes',
+    'Real-World Industrial Projects',
+    'Different Marketing Case Studies',
+    '1 Month Industrial Internship',
+    '1-1 Doubt Support Support Daily',
+    'Peer-To-Peer Learning Opportunity',
+    'Job Hunting & Freelancing Hacks',
     'Industry-recognized certification',
     'Lifetime access to course materials',
-    'One-on-one mentoring sessions',
   ];
 
   return (
@@ -40,8 +44,8 @@ const Courses = () => {
               </div>
 
               <p className="text-gray-300 mb-6">
-                Master the art of digital marketing with our comprehensive program. 
-                Learn from industry experts and get hands-on experience with real-world projects.
+                Master the art of Digital Marketing with our comprehensive Hands-on Program.
+                Work on real-world projects, gain practical learning experience and become Industry-Ready.
               </p>
 
               <div className="space-y-3 mb-8">
@@ -53,10 +57,11 @@ const Courses = () => {
                 ))}
               </div>
 
-              <button className="w-full bg-blue-500 hover:bg-blue-600 text-white py-3 px-6 rounded-lg 
-                               transition-all transform hover:scale-105 duration-300">
-                Enroll Now
-              </button>
+              <a href="https://dm.cloudyml.com/">
+                <button className="w-full bg-blue-500 hover:bg-blue-600 text-white py-3 px-6 rounded-lg transition-all transform hover:scale-105 duration-300">
+                  Learn More
+                </button>
+              </a>
             </div>
           </div>
         </div>

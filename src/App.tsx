@@ -15,23 +15,26 @@ import ProjectPage from './pages/ProjectPage';
 
 function App() {
   return (
-    <Router>
+    <Router basename={import.meta.env.BASE_URL || '/'}>
       <div className="bg-black min-h-screen">
         <Header />
         <Routes>
-          <Route path="/" element={
-            <>
-              <Hero />
-              <About />
-              <Experience />
-              <Portfolio />
-              <Courses />
-              <SocialMedia />
-              <VideoSection />
-              <Contact />
-              <SpaceShooter />
-            </>
-          } />
+          <Route
+            path="/"
+            element={
+              <>
+                <Hero />
+                <About />
+                <Experience />
+                <Portfolio />
+                <Courses />
+                <SocialMedia />
+                <VideoSection />
+                <Contact />
+                <SpaceShooter />
+              </>
+            }
+          />
           <Route path="/projects/:projectId" element={<ProjectPage />} />
         </Routes>
         <Footer />
