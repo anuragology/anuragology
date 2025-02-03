@@ -9,6 +9,7 @@ import Courses from './components/Courses';
 import SocialMedia from './components/SocialMedia';
 import VideoSection from './components/VideoSection';
 import Contact from './components/Contact';
+import Music from './components/Music';
 import SpaceShooter from './components/SpaceShooter';
 import Footer from './components/Footer';
 import ProjectPage from './pages/ProjectPage';
@@ -25,11 +26,12 @@ function App() {
               <>
                 <Hero />
                 <About />
+                <VideoSection />
                 <Experience />
                 <Portfolio />
                 <Courses />
                 <SocialMedia />
-                <VideoSection />
+                <Music />
                 <Contact />
                 <SpaceShooter />
               </>

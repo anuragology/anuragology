@@ -73,7 +73,7 @@ const Contact = () => {
 
               <div className="flex items-center gap-2 text-gray-300 mb-4">
                 <Mail className="h-5 w-5 text-blue-500" />
-                <span>contact@anuragnprasad.com</span>
+                <span>team@anuragology.com</span>
               </div>
             </div>
 
@@ -82,10 +82,10 @@ const Contact = () => {
               <h4 className="text-white font-bold mb-4">Follow me on social media</h4>
               <div className="flex gap-4">
                 {[
-                  { icon: Linkedin, href: '#', label: 'LinkedIn' },
-                  { icon: Twitter, href: '#', label: 'Twitter' },
-                  { icon: Facebook, href: '#', label: 'Facebook' },
-                  { icon: Instagram, href: '#', label: 'Instagram' },
+                  { icon: Linkedin, href: 'https://www.linkedin.com/in/anuragology/', label: 'LinkedIn' },
+                  { icon: Twitter, href: 'https://x.com/anuragology', label: 'Twitter' },
+                  { icon: Facebook, href: 'https://www.facebook.com/Anuragology/', label: 'Facebook' },
+                  { icon: Instagram, href: 'https://www.instagram.com/anuragology/', label: 'Instagram' },
                 ].map((social, index) => (
                   <a
                     key={index}

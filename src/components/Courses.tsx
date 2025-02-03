@@ -27,7 +27,7 @@ const Courses = () => {
             {/* Image Section */}
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                src="\assets\Digital Marketing.png"
                 alt="Digital Marketing Course"
                 className="w-full h-full object-cover"
               />

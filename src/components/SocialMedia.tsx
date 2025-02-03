@@ -1,41 +1,41 @@
 import React from 'react';
-import { Instagram, Linkedin, Github, Facebook, Youtube } from 'lucide-react';
+import { Instagram, Linkedin, Twitter, Facebook, Youtube } from 'lucide-react';
 
 const socialLinks = [
   {
     name: 'LinkedIn',
     icon: Linkedin,
-    url: '#',
+    url: 'https://www.linkedin.com/in/anuragology/',
     color: 'bg-[#0077B5]',
-    followers: '10K+',
+    followers: '3K+',
   },
   {
-    name: 'GitHub',
-    icon: Github,
-    url: '#',
+    name: 'X (Twitter)',
+    icon: Twitter,
+    url: 'https://twitter.com/anuragology',
     color: 'bg-[#333]',
-    followers: '500+',
+    followers: '100+',
   },
   {
     name: 'Instagram',
     icon: Instagram,
-    url: '#',
+    url: 'https://www.instagram.com/anuragology/',
     color: 'bg-gradient-to-r from-[#833AB4] via-[#FD1D1D] to-[#F77737]',
-    followers: '25K+',
+    followers: '10K+',
   },
   {
     name: 'YouTube',
     icon: Youtube,
-    url: '#',
+    url: 'https://www.youtube.com/@anuragology',
     color: 'bg-[#FF0000]',
-    followers: '15K+',
+    followers: '200+',
   },
   {
     name: 'Facebook',
     icon: Facebook,
-    url: '#',
+    url: 'https://www.facebook.com/Anuragology/',
     color: 'bg-[#1877F2]',
-    followers: '8K+',
+    followers: '200+',
   },
 ];
 
@@ -75,4 +75,4 @@ const SocialMedia = () => {
   );
 };
 
-export default SocialMedia
+export default SocialMedia;
