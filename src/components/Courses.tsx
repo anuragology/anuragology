@@ -1,6 +1,6 @@
 import React from 'react';
 import { BookOpen, CheckCircle } from 'lucide-react';
-
+import dmimg from '../assets/Digital Marketing.png'
 const Courses = () => {
   const benefits = [
     'Get Structured & Interactive Tutorial Videos',
@@ -27,7 +27,7 @@ const Courses = () => {
             {/* Image Section */}
             <div className="relative">
               <img
-                src="\assets\Digital Marketing.png"
+                src={dmimg}
                 alt="Digital Marketing Course"
                 className="w-full h-full object-cover"
               />
